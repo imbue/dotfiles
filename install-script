@@ -1,5 +1,7 @@
 #!/bin/bash
 
+touch $HOME/.hushlogin
+
 # install zsh
 echo 'install oh-my-zhs'
 echo '-----------------'
