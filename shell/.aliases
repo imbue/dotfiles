@@ -1,2 +1,0 @@
-# VM
-alias newsite="open ~/Homestead/Homestead.yaml && sudo nano /private/etc/hosts"
