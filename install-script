@@ -1,14 +1,18 @@
 #!/bin/bash
 
-#install zsh
+# install zsh
 echo 'install oh-my-zhs'
 echo '-----------------'
 rm -rf $HOME/.oh-my-zsh
 curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
-#global gitignore
+# global gitignore
 ln -s $HOME/.dotfiles/shell/.global-gitignore $HOME/.global-gitignore
 git config --global core.excludesfile $HOME/.global-gitignore
+
+# symlink vim prefs
+rm $HOME/.vimrc
+ln -s $HOME/.dotfiles/shell/.vimrc $HOME/.vimrc
 
 echo 'install composer'
 echo '----------------'
@@ -27,3 +31,8 @@ npm install -g gulp
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
 echo 'Finished'
+
+echo 'Things to do to make the terminal theme work:'
+
+# install solarized http://ethanschoonover.com/solarized
+echo '1. install patched solarized theme included in ~/.dotfiles/misc'
