@@ -8,4 +8,4 @@ The bootstrap script can be run be cd-ing into the .dotfiles directory and perfo
 ./bootstrap
 ```
 
-![zsh](https://tijdmachine.github.io/dotfiles/images/screenshot.png)
+![Terminal](https://tijdmachine.github.io/dotfiles/images/terminal.png)
