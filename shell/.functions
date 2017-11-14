@@ -42,3 +42,7 @@ function commit() {
   git add .
   eval "git commit -a -m '${commitMessage}'"
 }
+
+homestead() {
+    ( cd ~/Homestead && vagrant $* )
+}
