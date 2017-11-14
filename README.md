@@ -7,3 +7,5 @@ The bootstrap script can be run be cd-ing into the .dotfiles directory and perfo
 ```bash
 ./bootstrap
 ```
+
+![zsh](https://tijdmachine.github.io/dotfiles/images/screenshot.png)
