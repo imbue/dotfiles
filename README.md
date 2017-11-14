@@ -9,3 +9,6 @@ The bootstrap script can be run be cd-ing into the .dotfiles directory and perfo
 ```
 
 ![Terminal](https://tijdmachine.github.io/dotfiles/images/terminal.png)
+
+
+<small>Credits to/inspired by [freekmurze](https://github.com/freekmurze).</small>
